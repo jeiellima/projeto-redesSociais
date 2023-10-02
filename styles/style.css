@@ -23,7 +23,16 @@ main {
     
 }
 
-section#telefone {
+#teladiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 649px;
+    width: 330px;
+    
+}
+#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,5 +41,14 @@ section#telefone {
     height: 649px;
     width: 330px;
     background: url(../images/frame-iphone.png) no-repeat;
+}
 
+#tela {
+    position: relative;
+    top: 19px;
+    left: 16px;
+    height: 620px;
+    width: 300px;
+    border-radius: 15px;
+    border-bottom-right-radius: 20px;
 }
