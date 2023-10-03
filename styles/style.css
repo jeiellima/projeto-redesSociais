@@ -28,7 +28,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 649px;
+    height: 648px;
     width: 330px;
     
 }
@@ -45,10 +45,30 @@ main {
 
 #tela {
     position: relative;
-    top: 19px;
+    top: 17px;
     left: 16px;
     height: 620px;
     width: 300px;
     border-radius: 15px;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 23px;
+}
+
+#redes-sociais {
+    text-align: right;
+    padding-top: 10px;
+}
+#redes-sociais img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 2px 7px #000000ac;
+    transition: 0.2s;
+
+}
+
+#redes-sociais img:hover {
+    border: 2px solid #ffffffba;
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 10px #000000ac;
 }
